@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>CreateReservaServlet</servlet-name>
+        <servlet-class>controller.CreateReservaController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateReservaServlet</servlet-name>
+        <url-pattern>/createReserva</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReadReservaServlet</servlet-name>
+        <servlet-class>controller.ReadReservaController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReadReservaServlet</servlet-name>
+        <url-pattern>/readReserva</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateReservaServlet</servlet-name>
+        <servlet-class>controller.UpdateReservaController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateReservaServlet</servlet-name>
+        <url-pattern>/updateReserva</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DeleteReservaServlet</servlet-name>
+        <servlet-class>controller.DeleteReservaController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteReservaServlet</servlet-name>
+        <url-pattern>/deleteReserva</url-pattern>
+    </servlet-mapping>
+
+</web-app>
