@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Contatos</title>
+  <link rel="stylesheet" href="resourses/css/styles.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+
+
+<body class="bg-dark" style="background-image: url('resourses/img/bg.jpg'); background-size: cover;">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="promoções.html">Promoções</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Destino</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="container">
+  <h1 class="text-center">Página de Contatos</h1>
+  <div class="row mt-4">
+    <div class="col-md-6" >
+      <h2>Informações de Contato</h2>
+      <p><strong>Nome:</strong> Myller Gomes Tavares</p>
+      <p><strong>WhatsApp:</strong> <a href="tel:+21964938272">21 96493-8272</a></p>
+    </div>
+    <div class="col-md-6">
+      <h2>Deixe um Comentário</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefone:</label>
+          <input type="tel" class="form-control" id="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="comment">Comentário:</label>
+          <textarea class="form-control" id="comment" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Comentário</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Adicione o link para o arquivo JS do Bootstrap (opcional, mas alguns componentes do Bootstrap podem precisar dele) -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
